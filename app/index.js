@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SafeAreaView, ScrollView, View } from "react-native";
 import { Stack, useRouter } from "expo-router";
-
+import PopularJobCard from "../components/common/cards/popular/PopularJobCard";
 import { COLORS, icons, images, SIZES } from "../constants";
 import {
   Nearbyjobs,
